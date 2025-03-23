@@ -42,7 +42,7 @@ const Cart = () => {
   return (
     <div className='flex gap-20 py-16 px-10 max-lg:flex-col'>
       <div className='w-2/3 max-lg:w-full'>
-        <p className='text-heading3-bold'>Cart Items</p>
+        <p className='text-heading3-bold'>Your Cart</p>
         <hr className='my-6' />
         {cart.cartItems.length === 0 ? (<p className='text-body-bold'>No items in Cart</p>) : (
           <div>
